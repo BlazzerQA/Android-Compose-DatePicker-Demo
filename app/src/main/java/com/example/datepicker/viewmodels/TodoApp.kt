@@ -11,6 +11,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.room.Room
 import com.example.datepicker.data.AppDataBase
 import com.example.datepicker.repository.TasksRepository
+import com.example.datepicker.ui.screens.MainScreen
 
 class TodoApp : Application() {
 
@@ -34,4 +35,7 @@ fun TodoEntryPoint() {
             }
         }
     )
+
+    MainScreen(viewModel)
+
 }
