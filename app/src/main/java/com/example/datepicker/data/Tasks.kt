@@ -9,5 +9,6 @@ data class Tasks(
     @PrimaryKey(autoGenerate = true)
     val id : Int = 0,
     val title : String,
-    val date : Long? = null
+    val date : Long? = null,
+    val isCompleted : Boolean = false
 )

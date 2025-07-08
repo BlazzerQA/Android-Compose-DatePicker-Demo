@@ -1,6 +1,6 @@
 @file:Suppress("UNCHECKED_CAST")
 
-package com.example.datepicker.viewmodels
+package com.example.datepicker
 
 import android.app.Application
 import androidx.compose.runtime.Composable
@@ -12,6 +12,7 @@ import androidx.room.Room
 import com.example.datepicker.data.AppDataBase
 import com.example.datepicker.repository.TasksRepository
 import com.example.datepicker.ui.screens.MainScreen
+import com.example.datepicker.viewmodels.TaskViewModel
 
 class TodoApp : Application() {
 
